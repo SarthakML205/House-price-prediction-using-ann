@@ -1,0 +1,23 @@
+steps perfomed throught the project implementation.
+
+dataset --> features[categorical, continous]
+pytorch --> to handle tabular dataset
+
+steps:
+1. categorical features --> handled through embedding layers.
+2. Continous features
+
+
+1.) Categorical features :
+a) label encoding 
+b) take all categorical features --> (numpy , torch -> tenors)
+c) let take all continous values
+d) continous -> numpy -> torch -> tensors
+e) embedding layers for categorical features
+
+2.)creating feed forward neural network
+3.) define the loss and optimizer for the neural network
+4.)perfoming train test split.
+5.)train the neural network
+6.)validate the test data.
+7.)save the model
